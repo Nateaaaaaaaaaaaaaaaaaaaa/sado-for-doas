@@ -1,3 +1,6 @@
 import os
-cmd = 'doas'
-os.system(cmd)
+e = input('What would you like to run as root?')
+cmd = "doas "
+cmde = cmd + e
+os.system(cmde)
+
